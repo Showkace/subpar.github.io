@@ -5,7 +5,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: rgb(199, 55, 12);
+    background-image: "./imgs/file-20181022-105754-921ihj.webp";
 }
 
 h1{
