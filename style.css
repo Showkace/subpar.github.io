@@ -1,5 +1,6 @@
 body{
     font-family: Old English Text MT;
+    font-size: 3.5em;
     margin:auto;
     padding: 50px 50px;
     display: flex;
@@ -7,9 +8,42 @@ body{
     align-items: center;
     justify-content: center;
     background-color: rgb(199, 55, 12);
-    background-image: "./imgs/file-20181022-105754-921ihj.webp";
+    background: url("./imgs/file-20181022-105754-921ihj.webp");
+    background-size: cover;
+
+    
 }
 
 h1{
     padding-bottom: 50px;
 }
+
+@-webkit-keyframes blink {
+    from { color: rgb(77, 10, 10); }
+    to { color: rgb(252, 0, 0); }
+   }
+  @-moz-keyframes blink {
+    from { color: rgb(99, 7, 7); }
+    to { color: rgb(236, 6, 6); }
+  }
+  @-ms-keyframes blink {
+    from { color: rgb(77, 10, 10); }
+    to { color: rgb(252, 0, 0); }
+  }
+  @-o-keyframes blink {
+    from { color: rgb(77, 10, 10); }
+    to { color: rgb(252, 0, 0); }
+  }
+  @keyframes blink {
+    from { color: rgb(77, 10, 10); }
+    to { color: rgb(252, 0, 0); }
+  }
+ 
+  .blink {
+     color:rgb(77, 10, 10);
+     -webkit-animation: blink 2s 3 alternate;
+     -moz-animation: blink 2s 3 alternate;  
+     -ms-animation: blink 2s 3 alternate;  
+     -o-animation: blink 2s 3 alternate;  
+     animation: blink 2s 3 alternate;   
+  }
