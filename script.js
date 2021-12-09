@@ -1,8 +1,10 @@
-var newImg = document.getElementsByTagName('a');
+let newImg;
+newImg = document.getElementById("gifImg").firstChild();
+console.log(newImg);
 
-setTimeout (() => {}, 10000);
+setTimeout (() => {
+      
+    newImg.appendChild( "<a " + "src = ./imgs/hey.png" + "/>" )
+}, 10000);
 
-var swapGif = () =>{
-    newImg = url('./imgs/hey.png');
-};
 
