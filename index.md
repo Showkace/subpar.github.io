@@ -18,6 +18,10 @@
             <img src="./imgs/ezgifsatan2.gif" alt="Joe Rogan Gif"/>
         </div>
         
+        <div>
+            # Look upon ye and despair
+        </div>
+        
         <script type="text/javascript" src="script.js"></script>
     </body>
     <script type="text/javascript" src="script.js"></script>
