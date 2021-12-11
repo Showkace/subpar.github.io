@@ -15,9 +15,15 @@ body{
 
 h1{
     font-family: Old English Text MT;
+    color:rgb(0, 0, 0);
     font-size: 5.5em;
     padding-bottom: 20px;
     text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(255, 5, 5);
+}
+
+h1:focus,
+h1:hover {
+  transition: blink 2s 3 alternate;
 }
 
 @-webkit-keyframes blink {
@@ -48,6 +54,5 @@ h1{
      -moz-animation: blink 3 alternate;  
      -ms-animation: blink 3 alternate;  
      -o-animation: blink 3 alternate;  
-     animation: blink 3 alternate;  
-     color: rgb(63, 5, 5);
+     animation: blink 2s 3 alternate;  
   }

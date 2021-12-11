@@ -1,6 +1,5 @@
 let newImg;
-newImg = document.getElementById("gifImg").firstChild();
-console.log(newImg);
+newImg = document.getElementById("gifImg").innerHTML('');
 
 setTimeout (() => {
       
